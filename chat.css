@@ -18,13 +18,14 @@ body{
 
 .collapsible {
     background-color: #EE1B34;
-    color: white;
+    color: rgb(15, 14, 14);
     cursor: pointer;
-    padding: 18px;
+    padding: 25px;
     width: 350px;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Raleway';
     border-radius: 10px 10px 0px 0px;
     border: 3px solid white;
     border-bottom: none;
@@ -34,12 +35,14 @@ body{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #111010;
+    border: 1px solid #e0e0e0
+    
 }
 
 .full-chat-block {
     width: 350px;
-    background: white;
+    background: rgb(6, 6, 6);
     text-align: center;
     overflow: auto;
     scrollbar-width: none;
@@ -51,6 +54,7 @@ body{
     min-height: 500px;
     bottom: 0%;
     position: relative;
+    
 }
 
 .chat-container {
@@ -61,6 +65,7 @@ body{
     left: 0;
     scroll-behavior: smooth;
     hyphens: auto;
+    
 }
 
 .chat-container::-webkit-scrollbar {
@@ -74,7 +79,7 @@ body{
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(14, 13, 13);
     border-radius: 10px 10px 0px 0px;
     padding: 10px 0px 10px 10px;
 }
@@ -107,7 +112,7 @@ body{
     padding: 10px;
     font-size: 16px;
     color: #000;
-    background-color: white;
+    background-color: #FFD9DA;
     outline: none
 }
 
@@ -123,9 +128,9 @@ body{
 .userText span {
     line-height: 1.5em;
     display: inline-block;
-    background: #5ca6fa;
+    background: #EE1B34;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 12px;
     border-bottom-right-radius: 2px;
     max-width: 80%;
     margin-right: 10px;
@@ -143,7 +148,7 @@ body{
 .botText span {
     line-height: 1.5em;
     display: inline-block;
-    background: #e0e0e0;
+    background: #E4FDE1;
     padding: 10px;
     border-radius: 8px;
     border-bottom-left-radius: 2px;

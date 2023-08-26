@@ -141,6 +141,14 @@ function getBotResponse(input) {
             return "For gripping thrillers that keep you on the edge of your seat, check out:\n1. Signal\n2. Stranger (Secret Forest)\n3. Voice\n4. Save Me\n5. Train";
         } else if (input.includes("violence")) {
             return "For intense dramas with elements of violence, watch:\n1. Vagabond\n2. City Hunter\n3. Iris\n4. Two Weeks\n5. Warrior Baek Dong Soo";
+        } else if (input.includes("upcoming")) {
+            return "For upcoming K-dramas to look forward to, keep an eye out for:\n1. Doona\n2. Creature\n3. The worst of evil\n4. SweetHome season-2";
+        } else if (input.includes("classic")) {
+            return "For classic K-dramas that hold a special place, consider these timeless gems:\n1. Full House\n2. Autumn in My Heart\n3. My Name is Kim Sam-soon\n4. Coffee Prince\n5. Stairway to Heaven";
+        } else if (input.includes("old")) {
+            return "For those looking to explore older K-dramas, here are some classics:\n1. Winter Sonata\n2. Jewel in the Palace\n3. Boys Over Flowers\n4. My Lovely Sam Soon\n5. Dae Jang Geum";
+        } else if (input.includes("law")) {
+            return "If you're into law dramas, here are some captivating legal K-dramas:\n1. Suspicious Partner\n2. Lawless Lawyer\n3. Miss Hammurabi\n4. Pride and Prejudice\n5. My Lawyer, Mr. Jo";
         }
         
         
@@ -150,10 +158,10 @@ function getBotResponse(input) {
         
         
         else {
-            return "Hmm, I'm a bit lost in translation with that question.";
+            return "Oh, that question is making me scratch my head like a plot twist in a K-drama.";
         }
     } else {
-        return "I'm sorry, there seems to be an issue with your input.";
+        return "Oops, something seems off with what you just said. Mind giving it another shot? Let's keep this K-drama convo rolling! 🍿📺";
     }
 
 }

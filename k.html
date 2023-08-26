@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,11 +25,9 @@
         <div id="part2">
             <h5 href="#" class="tin">Home</h5>
             <a href="watchlater.html" class="tin" id="mint">watch-later</a>
-            <a href="chat.html">
-                <img href="chat.html" id="time" src="https://i.ibb.co/D8HLRn0/Untitled-design-20230826-134714-0000-removebg-preview.png">
-            </a>
 
         </div>
+        <div class="chat-bar-collapsible"></div>
     </nav>
     <img src="https://e1.pxfuel.com/desktop-wallpaper/144/230/desktop-wallpaper-all-comments-for-the-legend-of-the-blue-sea-season-1-legend-of-the-blue-sea.jpg" id="img2">
     <div id="lobs">
@@ -194,6 +194,56 @@
         </div>
         <br id="dramalist"></br>
     </div>
+    
+
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <img id="chat-button" type="button" class="collapsible" src="https://i.ibb.co/D8HLRn0/Untitled-design-20230826-134714-0000-removebg-preview.png">
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="response.js"></script>
+    <script src="chat.js"></script>
+
+
+
     <base href="k.html">
     <script src="k.js" type="module"></script>
     <script src="watchlater.js" type="module"></script>
