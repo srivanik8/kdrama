@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot</title>
+    <link rel="stylesheet" href="k.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <nav>
+        <div id="part1">
+            <img src="https://i.ibb.co/B6pwgVs/Kimchi-Famous-Healthy-Korean-Food-Vector-Illustration-EPS-removebg-preview.png" id="img1">
+            <h2>kimchi planet</h2>
+        </div>
+        <div id="part2">
+            <a href="k.html">Home</a>
+            <a href="watchlater.html" id="mint">watch-later</a>
+            <img href="chat.html" id="time" src="https://i.ibb.co/D8HLRn0/Untitled-design-20230826-134714-0000-removebg-preview.png">
+        </div>
+    </nav>
+
+
+    <!-- CHAT BAR BLOCK-->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- MESSAGE CONTAINER-->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- MESSAGES-->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStartMessage" class="botText">
+                                <span>Loading...</span>
+                            </p>
+                        </div>
+                        <!--USER INPUT BOX-->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                                    <i id="chat-icon" style="color: #3e3a3a;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                            </div>
+                            
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="chat.js" defer></script>
+    <script src="response.js" defer></script>
+</body>
+</html>
