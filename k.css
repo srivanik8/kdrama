@@ -11,21 +11,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap : 50px;
-    margin-left: 220px;
+    margin-left: 100px;
 }
 #part2 {
     display: flex;
     flex-wrap: wrap;
-    gap : 20px;
+    gap : 50px;
+    margin-left: 100px;
 }
-#time{
-    width: 100px;
-    height: 100px;
-    margin-left: 700px;
-    position: fixed;
-    margin-top: 600px;
 
-}
 
 a ,h5 {
     font-size: 25px;
@@ -149,3 +143,12 @@ ul li{
 .but{
     margin-top: 10px;
 }
+
+#time{
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    margin-top: 600px;
+    margin-left: 450px;
+}
+
